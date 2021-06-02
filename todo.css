@@ -1,0 +1,64 @@
+.container {
+    width: 1140px;
+    margin: auto;
+    font-family: arial;
+    padding: 30px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table tfoot input {
+    padding: 15px;
+    border: none;
+}
+
+table tbody td {
+    padding: 15px;
+}
+
+table thead th {
+    padding: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+}
+button#edit-btn {
+    color: azure;
+    background: blueviolet;
+    margin-right: 5px;
+}
+
+button#dlt-btn {
+    color: white;
+    background: red;
+}
+button#add-btn {
+    background: green;
+    color: white;
+    display: block;
+    margin: auto;
+}
+div#editfrom {
+    margin-top: 30px;
+} 
+input#editinput {
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+button#update {
+    background: #004aff;
+    margin-right: 5px;
+    color: white;
+}
+button#cancel {
+    background: #ff007d;
+    color: white;
+}
+#editfrom{
+    display:none;
+}

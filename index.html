@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Serial</th>
+                    <th>Title</th>
+                    <th>Desc</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+              
+            </tbody>
+            <tfoot>
+               <tr>
+                   <td><input type="text" id="todoInput"/></td>
+                   <td colspan="2"><input type="text" id="tododesc"/></td>
+                   <td><button id="add-btn">Add</button></td>
+               </tr>
+            </tfoot>
+        </table>
+        <div id="editfrom">
+            <div>
+            <input type="text" id="editinput"/>
+            <input id="chekindex" value="" type="hidden"/>
+            <button id="update">Update</button>
+            <button id="cancel">Cancel</button>
+            </div>
+            <div>
+                <textarea id="editdesc" cols="50" rows="2"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
